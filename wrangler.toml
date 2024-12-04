@@ -4,7 +4,7 @@ compatibility_flags = ["nodejs_compat"]
 
 account_id = "0d97d5e5babb1cf09223c5ee027337b5"
 main = "src/index.ts"
-workers_dev = true
+workers_dev = false
 
 [vars]
 ENVIRONMENT = "production"
