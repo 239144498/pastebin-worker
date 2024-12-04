@@ -32,8 +32,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          wranglerVersion: '3.3.0' # 尝试降级版本
         env:
             NO_D1_WARNING: true
-
-      
