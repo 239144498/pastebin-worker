@@ -36,8 +36,4 @@ jobs:
         env:
             NO_D1_WARNING: true
 
-      - name: Print Wrangler Logs if failure
-        if: failure()
-        run: |
-          ls -l .wrangler/logs
-          cat .wrangler/logs/*
+      
